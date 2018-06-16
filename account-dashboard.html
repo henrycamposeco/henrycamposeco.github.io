@@ -1,0 +1,696 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>My Account</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<!--===============================================================================================-->	
+	<link rel="icon" type="image/png" href="images/icons/favicon.png"/>
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/font-awesome-4.7.0/css/font-awesome.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="fonts/linearicons-v1.0.0/icon-font.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animate/animate.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/css-hamburgers/hamburgers.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/animsition/css/animsition.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/select2/select2.min.css">
+<!--===============================================================================================-->	
+	<link rel="stylesheet" type="text/css" href="vendor/daterangepicker/daterangepicker.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/slick/slick.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/lightbox2/css/lightbox.min.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="vendor/perfect-scrollbar/perfect-scrollbar.css">
+<!--===============================================================================================-->
+	<link rel="stylesheet" type="text/css" href="css/util.css">
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+<!--===============================================================================================-->
+</head>
+<body class="animsition">
+
+	<!-- Header -->
+	<header>
+		<!-- Header desktop -->
+		<div class="container-menu-desktop">
+			<div class="wrap-menu-desktop">
+				<nav class="limiter-menu-desktop">
+					<div class="left-header">
+						<!-- Logo desktop -->		
+						<div class="logo">
+							<a href="index.html"><img src="images/icons/mercadito-logo.png" alt="IMG-LOGO"></a>
+						</div>	
+					</div>
+						
+					<div class="center-header">
+						<!-- Menu desktop -->
+						<div class="menu-desktop">
+							<ul class="main-menu">
+								<li class="active-menu">
+									<a href="index.html">Inicio</a>
+								</li>
+
+								<li>
+									<a href="shop-sidebar-grid.html">Productos</a>
+								</li>
+								<li>
+									<a href="about-01.html">Sobre nosotros</a>
+								</li>
+								<li>
+									<a href="contact-01.html">Contacto</a>
+								</li>
+								<li>
+									<a href="account-dashboard.html">Mi cuenta</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+						
+					<div class="right-header">
+						<!-- Icon header -->
+						<div class="wrap-icon-header flex-w flex-r-m h-full wrap-menu-click p-t-8">
+							<div class="h-full flex-m">
+								<div class="icon-header-item flex-c-m trans-04 js-show-modal-search">
+									<img src="images/icons/icon-search.png" alt="SEARCH">
+								</div>
+							</div>
+								
+							<div class="wrap-cart-header h-full flex-m m-l-10 menu-click">
+								<div class="icon-header-item flex-c-m trans-04 icon-header-noti" data-notify="2">
+									<img src="images/icons/icon-cart-2.png" alt="CART">
+								</div>
+
+								<div class="cart-header menu-click-child trans-04">
+									<div class="bo-b-1 bocl15">
+										<div class="size-h-2 js-pscroll m-r--15 p-r-15">
+											<!-- cart header item -->
+											<div class="flex-w flex-str m-b-25">
+												<div class="size-w-15 flex-w flex-t">
+													<a class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14">
+														<img src="images/item-cart-01.jpg" alt="PRODUCT">
+													</a>
+
+													<div class="size-w-17 flex-col-l">
+														<a class="txt-s-108 cl3 hov-cl10 trans-04">
+															Elote unidad
+														</a>
+
+														<span class="txt-s-101 cl9">
+															Q 1.50
+														</span>
+
+														<span class="txt-s-109 cl12">
+															x2
+														</span>
+													</div>
+												</div>
+
+												<div class="size-w-14 flex-b">
+													<button class="lh-10">
+														<img src="images/icons/icon-close.png" alt="CLOSE">
+													</button>
+												</div>
+											</div>
+
+											<!-- cart header item -->
+											<div class="flex-w flex-str m-b-25">
+												<div class="size-w-15 flex-w flex-t">
+													<a class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14">
+														<img src="images/item-cart-02.jpg" alt="PRODUCT">
+													</a>
+
+													<div class="size-w-17 flex-col-l">
+														<a class="txt-s-108 cl3 hov-cl10 trans-04">
+															Esparragos manojo
+														</a>
+
+														<span class="txt-s-101 cl9">
+															Q 9.50
+														</span>
+
+														<span class="txt-s-109 cl12">
+															x1
+														</span>
+													</div>
+												</div>
+
+												<div class="size-w-14 flex-b">
+													<button class="lh-10">
+														<img src="images/icons/icon-close.png" alt="CLOSE">
+													</button>
+												</div>
+											</div>
+										</div>
+									</div>
+										
+
+									<div class="flex-w flex-sb-m p-t-22 p-b-12">
+										<span class="txt-m-103 cl3 p-r-20">
+											Subtotal
+										</span>
+
+										<span class="txt-m-111 cl6">
+											Q 11.00
+										</span>
+									</div>
+
+									<div class="flex-w flex-sb-m p-b-31">
+										<span class="txt-m-103 cl3 p-r-20">
+											Total
+										</span>
+
+										<span class="txt-m-111 cl10">
+											Q 11.00
+										</span>
+									</div>
+									
+									<a href="checkout.html" class="flex-c-m size-a-8 bg10 txt-s-105 cl13 hov-btn2 trans-04">
+										Comprar
+									</a>	
+								</div>
+							</div>
+						</div>
+					</div>
+				</nav>
+			</div>	
+		</div>
+
+		<!-- Header Mobile -->
+		<div class="wrap-header-mobile">
+			<!-- Logo moblie -->		
+			<div class="logo-mobile">
+				<a href="index.html"><img src="images/icons/mercadito-logo.png" alt="IMG-LOGO"></a>
+			</div>
+
+			<!-- Icon header -->
+			<div class="wrap-icon-header flex-w flex-r-m h-full wrap-menu-click m-r-15">
+				<div class="h-full flex-m">
+					<div class="icon-header-item flex-c-m trans-04 js-show-modal-search">
+						<img src="images/icons/icon-search.png" alt="SEARCH">
+					</div>
+				</div>
+
+				<div class="wrap-cart-header h-full flex-m m-l-5 menu-click">
+					<div class="icon-header-item flex-c-m trans-04 icon-header-noti" data-notify="2">
+						<img src="images/icons/icon-cart-2.png" alt="CART">
+					</div>
+
+					<div class="cart-header menu-click-child trans-04">
+						<div class="bo-b-1 bocl15">
+							<!-- cart header item -->
+							<div class="flex-w flex-str m-b-25">
+								<div class="size-w-15 flex-w flex-t">
+									<a class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14">
+										<img src="images/item-cart-01.jpg" alt="PRODUCT">
+									</a>
+
+									<div class="size-w-17 flex-col-l">
+										<a class="txt-s-108 cl3 hov-cl10 trans-04">
+											Elote unidad
+										</a>
+
+										<span class="txt-s-101 cl9">
+											Q 1.50
+										</span>
+
+										<span class="txt-s-109 cl12">
+											x2
+										</span>
+									</div>
+								</div>
+
+								<div class="size-w-14 flex-b">
+									<button class="lh-10">
+										<img src="images/icons/icon-close.png" alt="CLOSE">
+									</button>
+								</div>
+							</div>
+
+							<!-- cart header item -->
+							<div class="flex-w flex-str m-b-25">
+								<div class="size-w-15 flex-w flex-t">
+									<a class="wrap-pic-w bo-all-1 bocl12 size-w-16 hov3 trans-04 m-r-14">
+										<img src="images/item-cart-02.jpg" alt="PRODUCT">
+									</a>
+
+									<div class="size-w-17 flex-col-l">
+										<a class="txt-s-108 cl3 hov-cl10 trans-04">
+											Esparragos manojo
+										</a>
+
+										<span class="txt-s-101 cl9">
+											Q 9.50
+										</span>
+
+										<span class="txt-s-109 cl12">
+											x1
+										</span>
+									</div>
+								</div>
+
+								<div class="size-w-14 flex-b">
+									<button class="lh-10">
+										<img src="images/icons/icon-close.png" alt="CLOSE">
+									</button>
+								</div>
+							</div>
+						</div>
+
+						<div class="flex-w flex-sb-m p-t-22 p-b-12">
+							<span class="txt-m-103 cl3 p-r-20">
+								Subtotal
+							</span>
+
+							<span class="txt-m-111 cl6">
+								Q 11.00
+							</span>
+						</div>
+
+						<div class="flex-w flex-sb-m p-b-31">
+							<span class="txt-m-103 cl3 p-r-20">
+								Total
+							</span>
+
+							<span class="txt-m-111 cl10">
+								Q 11.00
+							</span>
+						</div>
+
+						<a href="checkout.html" class="flex-c-m size-a-8 bg10 txt-s-105 cl13 hov-btn2 trans-04">
+							Comprar
+						</a>	
+					</div>
+				</div>
+			</div>
+
+			<!-- Button show menu -->
+			<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
+				<span class="hamburger-box">
+					<span class="hamburger-inner"></span>
+				</span>
+			</div>
+		</div>
+
+
+		<!-- Menu Mobile -->
+		<div class="menu-mobile">
+			<ul class="main-menu-m">
+				<li>
+					<a href="index.html">Inicio</a>
+				</li>
+
+				<li>
+					<a href="shop-sidebar-grid.html">Productos</a>
+				</li>
+				<li>
+					<a href="about-01.html">Sobre nosotros</a>
+				</li>
+				<li>
+					<a href="contact-01.html">Contacto</a>
+				</li>
+			</ul>
+		</div>
+
+		<!-- Modal Search -->
+		<div class="modal-search-header flex-c-m trans-04 js-hide-modal-search">
+			<button class="flex-c-m btn-hide-modal-search trans-04 js-hide-modal-search">
+				<span class="lnr lnr-cross"></span>
+			</button>
+			
+			<div class="container-search-header">
+				<form class="wrap-search-header flex-w">
+					<button class="flex-c-m trans-04">
+						<span class="lnr lnr-magnifier"></span>
+					</button>
+					<input class="plh1" type="text" name="search" placeholder="Buscar producto...">
+				</form>
+			</div>
+		</div>
+	</header>
+
+	<!-- content page -->
+	<div class="bg0 p-t-20 p-b-70">
+		<div class="container">
+			<!-- Tab03 -->
+			<div class="tab03">
+				<div class="row">
+					<div class="col-md-3 col-lg-2 p-b-30">
+						<!-- Nav tabs -->
+						<ul class="nav nav-tabs" role="tablist">
+							<li class="nav-item p-b-16">
+								<a class="nav-link active" data-toggle="tab" href="#dashboard" role="tab">Tablero</a>
+							</li>
+
+							<li class="nav-item p-b-16">
+								<a class="nav-link" data-toggle="tab" href="#orders" role="tab">Ordenes</a>
+							</li>
+
+							<li class="nav-item p-b-16">
+								<a class="nav-link" data-toggle="tab" href="#addresses" role="tab">Direcciones</a>
+							</li>
+
+							<li class="nav-item p-b-16">
+								<a class="nav-link" data-toggle="tab" href="#account-details" role="tab">Detalles de la cuenta</a>
+							</li>
+
+							<li class="nav-item p-b-16">
+								<a class="nav-link" href="#">Salír</a>
+							</li>
+						</ul>
+					</div>
+						
+					<div class="col-md-9 col-lg-10 p-b-30">
+						<!-- Tab panes -->
+						<div class="tab-content p-l-70 p-l-0-lg">
+							<!-- - -->
+							<div class="tab-pane fade show active" id="dashboard" role="tabpanel">
+								<p class="txt-s-101 cl6 p-b-18">
+									Hola <span class="txt-s-108">usuario01</span> (no eres <span class="txt-s-108">usuario01</span>? <a href="#" class="txt-s-101 cl6 hov-cl10">Salír</a>)
+								</p>
+
+								<p>
+									Desde el tablero de la cuenta puedes ver tus órdenes recientes, Editar tus direcciones, cambiar periodicidad de entrega y actualizar tu contraseña.
+								</p>
+							</div>
+
+							<!-- - -->
+							<div class="tab-pane fade" id="orders" role="tabpanel">
+								<div class="bo-all-1 bocl15 flex-w flex-sb-m p-rl-30 p-tb-10 p-rl-15-ssm">
+									<div class="flex-t p-tb-8 m-r-30">
+										<img class="m-t-6 m-r-10" src="images/icons/icon-list.png" alt="IMG">
+										<span class="size-w-53 txt-s-101 cl6">
+											No se han hecho órdenes todavía.
+										</span>
+									</div>
+
+									<a href="shop-sidebar-grid.html" class="flex-c-m txt-s-105 cl0 bg10 size-a-42 hov-btn2 trans-04 p-rl-10 m-tb-8">
+										ir a al mercadito.
+									</a>
+								</div>
+							</div>
+
+						<!-- - -->
+							<div class="tab-pane fade" id="addresses" role="tabpanel">
+								<p class="txt-s-101 cl6">
+									Las siguientes direcciones seran usadas en tus compras.
+								</p>
+
+								<div class="flex-w flex-sb p-t-37">
+									<div class="size-w-63 flex-t w-full-sm p-b-35">
+										<div class="size-w-53 p-r-30">
+											<h5 class="txt-m-109 cl3 p-b-7">
+												Dirección de facturación
+											</h5>
+
+											<p class="txt-s-101 cl6">
+												No has configurado esta dirección todavía.
+											</p>
+										</div>
+
+										<a href="#" class="txt-s-115 cl10 hov12 hov-cl10 p-t-6">
+											Editar
+										</a>
+									</div>
+
+									<div class="size-w-63 flex-t w-full-sm p-b-35">
+										<div class="size-w-53 p-r-30">
+											<h5 class="txt-m-109 cl3 p-b-7">
+												Dirección de envío
+											</h5>
+
+											<p class="txt-s-101 cl6">
+												No has configurado esta dirección todavía.
+											</p>
+										</div>
+
+										<a href="#" class="txt-s-115 cl10 hov12 hov-cl10 p-t-6">
+											Editar
+										</a>
+									</div>
+								</div>
+							</div>
+
+							<!-- - -->
+							<div class="tab-pane fade" id="account-details" role="tabpanel">
+								<form>
+									<div class="row">
+										<div class="col-sm-6 p-b-23">
+											<div>
+												<div class="txt-s-101 cl6 p-b-10">
+													Nombre <span class="cl12">*</span>
+												</div>
+
+												<input class="txt-s-120 cl3 size-a-21 bo-all-1 bocl15 p-rl-20 focus1" type="text" name="first-name">
+											</div>
+										</div>
+
+										<div class="col-sm-6 p-b-23">
+											<div>
+												<div class="txt-s-101 cl6 p-b-10">
+													Apellido <span class="cl12">*</span>
+												</div>
+
+												<input class="txt-s-120 cl3 size-a-21 bo-all-1 bocl15 p-rl-20 focus1" type="text" name="last-name">
+											</div>
+										</div>
+
+										<div class="col-12 p-b-23">
+											<div>
+												<div class="txt-s-101 cl6 p-b-10">
+													Correo electrónico <span class="cl12">*</span>
+												</div>
+
+												<input class="txt-s-120 cl3 size-a-21 bo-all-1 bocl15 p-rl-20 focus1" type="text" name="email" placeholder="example@abc.xyz">
+											</div>
+										</div>
+
+										<h5 class="txt-m-109 cl3 p-rl-15 p-t-10 p-b-17">
+											Cambiar contraseña
+										</h5>
+
+										<div class="col-12 p-b-23">
+											<div>
+												<div class="txt-s-101 cl6 p-b-10">
+													Contraseña actual (dejar en blanco si no la deseas cambiar)
+												</div>
+
+												<input class="txt-s-120 cl3 size-a-21 bo-all-1 bocl15 p-rl-20 focus1" type="text" name="current-pw">
+											</div>
+										</div>
+
+										<div class="col-12 p-b-23">
+											<div>
+												<div class="txt-s-101 cl6 p-b-10">
+													Nueva contraseña (dejar en blanco si no la deseas cambiar)
+												</div>
+
+												<input class="txt-s-120 cl3 size-a-21 bo-all-1 bocl15 p-rl-20 focus1" type="text" name="new-pw">
+											</div>
+										</div>
+
+										<div class="col-12 p-b-23">
+											<div>
+												<div class="txt-s-101 cl6 p-b-10">
+													Repetir nueva contraseña
+												</div>
+
+												<input class="txt-s-120 cl3 size-a-21 bo-all-1 bocl15 p-rl-20 focus1" type="text" name="cf-new-pw">
+											</div>
+										</div>
+
+										<div class="flex-w p-rl-15 p-t-17">
+											<button class="flex-c-m txt-s-105 cl0 bg10 size-a-43 hov-btn2 trans-04 p-rl-10">
+												Guardar cambios
+											</button>
+										</div>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- Footer -->
+	<footer class="bg2">
+		<div class="container">
+			<div class="wrap-footer flex-w p-t-60 p-b-62">
+				<div class="footer-col1">
+					<div class="footer-col-title">
+						<a href="#">
+							<img src="images/icons/mercadito-logo.png" alt="LOGO">
+						</a>
+					</div>
+
+					<p class="txt-s-101 cl0 size-w-10 p-b-16">
+						There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration
+					</p>
+
+					<ul>
+						<li class="txt-s-101 cl0 flex-t p-b-10">
+							<span class="size-w-11">
+								<img src="images/icons/icon-mail-02.png" alt="ICON-MAIL">
+							</span>
+							
+							<span class="size-w-12 p-t-1">
+								info@elmercadito.com
+							</span>
+						</li>
+
+						<li class="txt-s-101 cl0 flex-t p-b-10">
+							<span class="size-w-11">
+								<img src="images/icons/icon-pin-02.png" alt="ICON-MAIL">
+							</span>
+							
+							<span class="size-w-12 p-t-1">
+								Antigua Guatemala, 1-30 antigua guatemala zona 1
+							</span>
+						</li>
+
+						<li class="txt-s-101 cl0 flex-t p-b-10">
+							<span class="size-w-11">
+								<img src="images/icons/icon-phone-02.png" alt="ICON-MAIL">
+							</span>
+							
+							<span class="size-w-12 p-t-1">
+								(502) 7777-7777
+							</span>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-col2">
+					<div class="footer-col-title flex-m">
+						<span class="txt-m-109 cl0">
+							Información
+						</span>
+					</div>
+
+					<ul>
+						<li class="p-b-16">
+							<a href="about-01.html" class="txt-s-101 cl0 hov-cl10 trans-04 p-tb-5">
+								Sobre nosotros
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-col3">
+					<div class="footer-col-title flex-m">
+						<span class="txt-m-109 cl0">
+							Mi cuenta
+						</span>
+					</div>
+
+					<ul>
+						<li class="p-b-16">
+							<a href="account.html" class="txt-s-101 cl0 hov-cl10 trans-04 p-tb-5">
+								Mi cuenta
+							</a>
+						</li>
+						<li class="p-b-16">
+							<a href="#" class="txt-s-101 cl0 hov-cl10 trans-04 p-tb-5">
+								Historial de órdenes
+							</a>
+						</li>
+					</ul>
+				</div>
+
+				<div class="footer-col4">
+					<div class="footer-col-title flex-m">
+						<span class="txt-m-109 cl0">
+							Solicitar información
+						</span>
+					</div>
+
+					<p class="txt-s-101 cl0 p-b-33">
+						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore.
+					</p>
+
+					<form class="flex-w">
+						<input class="size-a-11 bg0 plh1 txt-s-111 cl3 p-rl-15" type="text" name="email" placeholder="Tu dirección de correo">
+						<button class="flex-c-m size-a-10 bg10 hov-btn2 trans-04">
+							<img src="images/icons/icon-send.png" alt="SENT">
+						</button>
+					</form>
+				</div>
+			</div>
+
+			<div class="flex-w flex-sb-m bo-t-1 bocl16 p-tb-14">
+				<span class="txt-s-101 cl0 p-tb-10 p-r-29">
+					Copyright © 2018 El Mercadito. Todos los derechos reservados.
+				</span>
+
+				<div class="flex-w flex-m">
+					<a href="#" class="m-r-29 m-tb-10">
+						<img src="images/icons/icon-pay-01.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-r-29 m-tb-10">
+						<img src="images/icons/icon-pay-02.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-r-29 m-tb-10">
+						<img src="images/icons/icon-pay-03.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#" class="m-r-29 m-tb-10">
+						<img src="images/icons/icon-pay-04.png" alt="ICON-PAY">
+					</a>
+
+					<a href="#">
+						<img src="images/icons/icon-pay-05.png" alt="ICON-PAY">
+					</a>
+				</div>
+			</div>
+		</div>
+	</footer>
+	
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top bg0-hov" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<span class="lnr lnr-chevron-up"></span>
+		</span>
+	</div>
+
+	
+
+<!--===============================================================================================-->	
+	<script src="vendor/jquery/jquery-3.2.1.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/animsition/js/animsition.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/bootstrap/js/popper.js"></script>
+	<script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/select2/select2.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/daterangepicker/moment.min.js"></script>
+	<script src="vendor/daterangepicker/daterangepicker.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/slick/slick.min.js"></script>
+	<script src="js/slick-custom.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/parallax100/parallax100.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/lightbox2/js/lightbox.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/isotope/isotope.pkgd.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/sweetalert/sweetalert.min.js"></script>
+<!--===============================================================================================-->
+	<script src="vendor/perfect-scrollbar/perfect-scrollbar.min.js"></script>
+<!--===============================================================================================-->
+	<script src="js/main.js"></script>
+
+</body>
+</html>
